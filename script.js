@@ -6,7 +6,7 @@ function Person(name, age) {
 
 // Add greet method to the Person prototype
 Person.prototype.greet = function () {
-    console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`);
+    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
 };
 
 // Define the Employee class inheriting from Person
